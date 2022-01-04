@@ -217,7 +217,7 @@ func isBalanced(s: String) -> String {
         switch char {
             
             //Push on all opening brackets from string
-        case"{", "[", "(":
+        case"[", "{", "(":
             bracketArray.append(char)
             
             //Pop off all closing brackets in cases below this point
